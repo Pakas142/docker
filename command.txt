@@ -1,0 +1,12 @@
+sudo apt update		-	for update the packages
+sudo apt install docker.io - for installing docker
+sudo usermod -aG docker ubuntu - for adding the ubuntu user into the docker group for given super permission
+vi Dockerfile		-	creating a docker file
+docker build -t docker:v2 -	build docker image with taging a name
+docker run -d -p 80:80 docker:v2 - for run docker
+now the file running success fully and 
+vi docker-compose.yml	-	creating a docker compose file
+docker-compose up -d	- after uped the docker compose the ip address with port number 5000 working successfully
+
+after that iam pushing the image to the docker hub
+docker images to pushing
